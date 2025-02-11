@@ -17,6 +17,7 @@ import Industries from '../components/HomeOneNew/industries/page'
 import CustomSolutions from '../components/HomeOneNew/customSolutions/page'
 import WebDevelopmentBanner from '../components/HomeOneNew/webDevelopmentBanner/page'
 import EngagementModels from '../components/HomeOneNew/engagementModels/page'
+import BusinessesWorldwide from '../components/HomeOneNew/businessesWorldwide/page'
 
 const Index = () => {
     return (
@@ -31,6 +32,7 @@ const Index = () => {
             <CustomSolutions/>
             <WebDevelopmentBanner/>
             <EngagementModels/>
+            <BusinessesWorldwide/>
             <StrategyForm/>
 
             {/* <Features />
