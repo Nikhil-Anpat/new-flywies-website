@@ -11,29 +11,34 @@ import News from '../components/Common/News'
 import Footer from '../components/Layouts/Footer'
 import ModernWebsite from '../components/HomeOneNew/modernWebsite/page'
 import Leverage from '../components/HomeOneNew/leverage/page'
-import StrategyForm from '../components/HomeOneNew/bookStrategy/page' 
+import StrategyForm from '../components/HomeOneNew/bookStrategy/page'
 import Technologies from '../components/HomeOneNew/technologies/page'
 import Industries from '../components/HomeOneNew/industries/page'
 import CustomSolutions from '../components/HomeOneNew/customSolutions/page'
 import WebDevelopmentBanner from '../components/HomeOneNew/webDevelopmentBanner/page'
 import EngagementModels from '../components/HomeOneNew/engagementModels/page'
 import BusinessesWorldwide from '../components/HomeOneNew/businessesWorldwide/page'
+import TestimonialSlider from '../components/HomeOneNew/testimonialSlider/page'
+import BannerSection from '../components/HomeOneNew/banner/page'
 
 const Index = () => {
     return (
         <>
             <Navbar />
-            <MainBanner />
-            <ModernWebsite/>
-            <StrategyForm/>
-            <Leverage/>
-            <Technologies/>
-            <Industries/>
-            <CustomSolutions/>
-            <WebDevelopmentBanner/>
-            <EngagementModels/>
-            <BusinessesWorldwide/>
-            <StrategyForm/>
+            <BannerSection />
+            {/* <MainBanner /> */}
+            <ModernWebsite />
+            <StrategyForm />
+            <Leverage />
+            <Technologies />
+            <Industries />
+            <CustomSolutions />
+            <WebDevelopmentBanner />
+            <EngagementModels />
+            <TestimonialSlider />
+            <BusinessesWorldwide />
+            <StrategyForm />
+
 
             {/* <Features />
             <About />

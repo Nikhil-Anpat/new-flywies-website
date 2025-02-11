@@ -11,7 +11,7 @@ export default function BusinessesWorldwide () {
             <div className="row align-items-center">
               <div className="col-lg-12">
                 <div className="business-content">
-                  <span className="justify-content-center" style={{ display:'flex',width:'100%',fontSize:'25px',textAlign: "center",fontWeight:'700' }}>Chosen by <span style={{color:'#53AE43'}}>Leading  Businesses </span> Worldwide</span>
+                  <span className="justify-content-center" style={{ display:'flex',width:'100%',fontSize:'25whatpx',textAlign: "center",fontWeight:'700' }}>Chosen by <span style={{color:'#53AE43'}}>Leading  Businesses </span> Worldwide</span>
                 </div>
               </div>
             </div>

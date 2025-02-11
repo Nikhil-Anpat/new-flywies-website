@@ -77,23 +77,23 @@ export default function EngagementModels() {
                     </p>
                     <div style={styles.iconContainer}>
                         <img src="/assets/websiteWebappDevelopment/engagementModelsFigma.svg" alt="Figma" style={styles.icon} />
-                        <img src="/assets/websiteWebappDevelopment/ai.png" alt="Adobe Illustrator" style={styles.icon} />
-                        <img src="/assets/websiteWebappDevelopment/ps.png" alt="Photoshop" style={styles.icon} />
-                        <img src="/assets/websiteWebappDevelopment/xd.png" alt="Adobe XD" style={styles.icon} />
+                        <img src="/assets/websiteWebappDevelopment/engagementModelsAi.svg" alt="Adobe Illustrator" style={styles.icon} />
+                        <img src="/assets/websiteWebappDevelopment/engagementModelsPS.svg" alt="Photoshop" style={styles.icon} />
+                        <img src="/assets/websiteWebappDevelopment/engagementModelsXD.svg" alt="Adobe XD" style={styles.icon} />
                     </div>
                 </div>
 
                 {/* Card 2 */}
                 <div style={styles.card}>
                     <h3 style={styles.cardTitle}>Clean and Scalable Code</h3>
-                    <p style={styles.cardText}>
+                    <p style={styles.cardText} className="pt-2">
                         Leverage the right framework for seamless, business-driven solutions
                     </p>
-                    <div style={styles.iconContainer}>
-                        <img src="/assets/websiteWebappDevelopment/react.png" alt="React" style={styles.icon} />
-                        <img src="/assets/websiteWebappDevelopment/angular.png" alt="Angular" style={styles.icon} />
-                        <img src="/assets/websiteWebappDevelopment/mongodb.png" alt="MongoDB" style={styles.icon} />
-                        <img src="/assets/websiteWebappDevelopment/postgresql.png" alt="PostgreSQL" style={styles.icon} />
+                    <div style={styles.iconContainer} className="pt-3">
+                        <img src="/assets/websiteWebappDevelopment/engagementModelsReact.svg" alt="React" style={styles.icon} />
+                        <img src="/assets/websiteWebappDevelopment/engagementModelsAngular.svg" alt="Angular" style={styles.icon} />
+                        <img src="/assets/websiteWebappDevelopment/engagementModelsMongo.svg" alt="MongoDB" style={styles.icon} />
+                        <img src="/assets/websiteWebappDevelopment/engagementModelsElephent.svg" alt="PostgreSQL" style={styles.icon} />
                     </div>
                 </div>
 
@@ -104,10 +104,10 @@ export default function EngagementModels() {
                         Stay updated with seamless, hassle-free interactions with our developers
                     </p>
                     <div style={styles.iconContainer}>
-                        <img src="/assets/websiteWebappDevelopment/google-meet.png" alt="Google Meet" style={styles.icon} />
-                        <img src="/assets/websiteWebappDevelopment/whatsapp.png" alt="WhatsApp" style={styles.icon} />
-                        <img src="/assets/websiteWebappDevelopment/gmail.png" alt="Gmail" style={styles.icon} />
-                        <img src="/assets/websiteWebappDevelopment/wordpress.png" alt="WordPress" style={styles.icon} />
+                        <img src="/assets/websiteWebappDevelopment/engagementModelsGoogle.svg" alt="Google Meet" style={styles.icon} />
+                        <img src="/assets/websiteWebappDevelopment/engagementModelsWhatsApp.svg" alt="WhatsApp" style={styles.icon} />
+                        <img src="/assets/websiteWebappDevelopment/engagementModelsGmail.svg" alt="Gmail" style={styles.icon} />
+                        <img src="/assets/websiteWebappDevelopment/engagementModelsWord.svg" alt="WordPress" style={styles.icon} />
                     </div>
                 </div>
             </div>
