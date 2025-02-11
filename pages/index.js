@@ -14,6 +14,9 @@ import Leverage from '../components/HomeOneNew/leverage/page'
 import StrategyForm from '../components/HomeOneNew/bookStrategy/page' 
 import Technologies from '../components/HomeOneNew/technologies/page'
 import Industries from '../components/HomeOneNew/industries/page'
+import CustomSolutions from '../components/HomeOneNew/customSolutions/page'
+import WebDevelopmentBanner from '../components/HomeOneNew/webDevelopmentBanner/page'
+import EngagementModels from '../components/HomeOneNew/engagementModels/page'
 
 const Index = () => {
     return (
@@ -21,10 +24,15 @@ const Index = () => {
             <Navbar />
             <MainBanner />
             <ModernWebsite/>
+            <StrategyForm/>
             <Leverage/>
             <Technologies/>
             <Industries/>
+            <CustomSolutions/>
+            <WebDevelopmentBanner/>
+            <EngagementModels/>
             <StrategyForm/>
+
             {/* <Features />
             <About />
             <WhyChooseUs />

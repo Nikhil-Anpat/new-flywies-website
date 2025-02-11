@@ -20,7 +20,7 @@ export default function Technologies() {
   ];
 
   return (
-    <div className="flex flex-col items-center text-center py-10" style={{ backgroundColor: "#fff", padding: isMobile ? "20px" : "40px" }}>
+    <div className="flex flex-col items-center text-center py-10" style={{ backgroundColor: "#fff", padding: isMobile ? "10px" : "30px" }}>
       {/* Title */}
       <span
         style={{

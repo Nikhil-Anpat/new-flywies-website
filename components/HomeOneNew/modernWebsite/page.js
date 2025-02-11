@@ -15,7 +15,7 @@ export default function ModernWebsite() {
     const styles = {
         modernMain: {
             width: "100%",
-            padding: isMobile ? "10px 20px" : "30px 40px",
+            padding: isMobile ? "10px 10px" : "30px 40px",
             backgroundColor: "#FFFFFF",
         },
         modernSubmain: {
